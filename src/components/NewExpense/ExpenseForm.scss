@@ -1,0 +1,40 @@
+.new-expense__controls {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    padding: 20px;
+    text-align: left;
+    .new-expense__control label {
+      font-weight: bold;
+      margin-bottom: 0.5rem;
+      display: block;
+    }
+    .new-expense__control input {
+      font: inherit;
+      padding: 0.5rem;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+      width: 20rem;
+      max-width: 100%;
+    }
+}
+.new-expense__actions {
+  text-align: right;
+  padding: 20px;
+  
+}
+.submit-button{
+    background-color: rgb(213, 103, 139);
+    border: 2px solid white;
+    padding:10px 20px;
+    color: white;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 8px;
+}
+@media screen and (min-width: 330px){
+  .new-expense__control{
+    max-width:70%;
+  }
+}

@@ -1,6 +1,5 @@
 import React from 'react';
 import './ExpenseDate.scss';
-import PropTypes from 'prop-types';
 
 //shift+option+F
 function ExpenseDate(props) {
@@ -15,9 +14,4 @@ function ExpenseDate(props) {
         </div>
     );
 }
-
-ExpenseDate.propTypes = {
-
-};
-
 export default ExpenseDate;

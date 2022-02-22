@@ -1,0 +1,15 @@
+.expense-filter{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    font-weight: bold;
+    padding: 20px;
+    select{
+        background-color: #f2f2ec;
+        padding: 10px 20px;
+        border-radius: 8px;
+        width: 25%;
+        font-weight: 500;
+    }
+}
