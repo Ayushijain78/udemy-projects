@@ -2,12 +2,13 @@ import React from 'react';
 import ExpensesItem from './ExpensesItem';
 
 function ExpensesList(props) {
-    const { filteredExpense } = props;
+    const { items, expenseData } = props;
+    
     return (
         <div>
             {
-                filteredExpense.length === 0 ?
-                    <p>No data found</p> : filteredExpense.map((expense) => {
+                items.length === 0 ?
+                    <p>No data found</p> : items.map((expense) => {
                         const amount = expense.amount;
                         const title = expense.title;
                         const date = expense.date;
